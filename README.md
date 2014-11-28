@@ -1,4 +1,4 @@
-jfinal-tablebind
+jfinal-routebind
 ============
 
-jfinal  tablebind plugin
+jfinal  route bind
