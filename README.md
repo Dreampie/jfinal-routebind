@@ -29,7 +29,7 @@ public void configRoute(Routes routes) {
   routes.add(routeBind);
 }
 
-使用注解自定义controller的相关属性
+使用注解自定义controller的相关属性,可选使用，需要定制controllerkey的时候使用
 @ControllerKey(key|(key,path))
 ```
 
