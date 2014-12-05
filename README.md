@@ -13,7 +13,7 @@ maven 引用  ${jfinal-routebind.version}替换为相应的版本如:0.1
 </dependency>
 ```
 
-使用非常简单
+使用非常简单的，自动注册所有controller的路由绑定工具
 
 ```java
 
@@ -29,4 +29,7 @@ public void configRoute(Routes routes) {
   routes.add(routeBind);
 }
 
+使用注解自定义controller的相关属性
+@ControllerKey(key|(key,path))
 ```
+
